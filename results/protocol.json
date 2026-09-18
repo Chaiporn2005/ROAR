@@ -1,0 +1,71 @@
+{
+  "n_samples": 177,
+  "n_features": 21,
+  "n_preop": 106,
+  "n_12month": 71,
+  "k_checkpoints": [
+    1,
+    3,
+    5,
+    8,
+    11
+  ],
+  "n_random_draws_per_k": 30,
+  "cv_repeat_seeds_informed_and_baseline": [
+    42,
+    142,
+    242,
+    342,
+    442,
+    542,
+    642,
+    742,
+    842,
+    942
+  ],
+  "cv_repeat_seeds_random_control": [
+    42,
+    142,
+    242
+  ],
+  "n_splits": 5,
+  "rng_base_seed": 20260918,
+  "baseline_pr_auc_mean": 0.9717824644320947,
+  "baseline_pr_auc_std": 0.024222944073772904,
+  "baseline_top3_shap": [
+    "Dimethyl sulfone",
+    "isopropanol",
+    "methanol"
+  ],
+  "baseline_top3_matches_known_artifact_trio": true,
+  "known_artifacts": [
+    "isopropanol",
+    "methanol",
+    "Dimethyl sulfone"
+  ],
+  "constraint_direction": {
+    "L-valine": 1,
+    "L-leucine": 1,
+    "L-allo-Isoleucine": 1,
+    "L-tyrosine": 1,
+    "D-phenylalanine": 1,
+    "L-alanine": 1,
+    "lipoproteins": 1,
+    "L-Lactic acid": 1,
+    "glycine": -1,
+    "L-glutamine": -1,
+    "histidine": -1
+  },
+  "package_versions": {
+    "xgboost": "3.2.0",
+    "shap": "0.51.0",
+    "scikit_learn": "1.8.0",
+    "pandas": "3.0.2",
+    "numpy": "2.4.4"
+  },
+  "input_file_sha256": {
+    "m_MTBLS242_v2_maf.tsv": "ac8828014a93ae197a3f6936d9b544bf90967825290508b32bfd4e8e2a1b3bfc",
+    "s_MTBLS242.txt": "4ff5853cb7ec4f6c51ea1c2fc60be269f00520cb41b8736ea1c41f407b3306d3"
+  },
+  "runtime_seconds": 95.9
+}
