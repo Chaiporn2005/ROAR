@@ -1,0 +1,3 @@
+group,features,pr_auc_mean,pr_auc_std,percentile_in_random_k3_dist
+known_artifact_trio,isopropanol;methanol;Dimethyl sulfone,0.9522526998974792,0.02924044049114287,3.3333333333333335
+top_literature_biology_trio,lipoproteins;L-valine;L-tyrosine,0.9605418502252161,0.0292148153144487,6.666666666666667
