@@ -1,0 +1,22 @@
+rank,metabolite,mean_abs_shap,constraint_direction,is_known_artifact
+1,Dimethyl sulfone,1.729100227355957,0,True
+2,isopropanol,1.4087077379226685,0,True
+3,methanol,0.7494180798530579,0,True
+4,lipoproteins,0.6858446598052979,1,False
+5,L-valine,0.6519770622253418,1,False
+6,L-tyrosine,0.5431338548660278,1,False
+7,glycine,0.44169580936431885,-1,False
+8,hypoxanthine,0.37373271584510803,0,False
+9,Pyruvic acid,0.2576524019241333,0,False
+10,acetoacetate,0.2375737577676773,0,False
+11,citrate,0.18078380823135376,0,False
+12,histidine,0.15271206200122833,-1,False
+13,creatinine,0.14738020300865173,0,False
+14,acetate,0.1127106174826622,0,False
+15,D-phenylalanine,0.06030409783124924,1,False
+16,(R)-3-Hydroxybutyric acid,0.05624851584434509,0,False
+17,L-glutamine,0.04726184532046318,-1,False
+18,L-allo-Isoleucine,0.022657785564661026,1,False
+19,L-alanine,0.014587897807359695,1,False
+20,L-Lactic acid,0.0,1,False
+21,L-leucine,0.0,1,False
